@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const AUTH_TOKEN = process.env.REACT_APP_AUTH_TOKEN;
+const AUTH_TOKEN = 'aSvEHaczt4YQktU00uvF'
 
 const axiosInstance = axios.create({
     baseURL: 'https://test.gmnlab.com/api',
