@@ -1,0 +1,43 @@
+.status-toggle-buttons {
+    display: flex;
+}
+
+.status-toggle-buttons .p-button {
+    padding: 10px 20px;
+    border: 2px solid;
+    transition: all 0.1s ease;
+    width: 8rem;
+    height: 3rem;
+}
+
+.status-toggle-buttons .awaiting {
+    background-color: #161616;
+    border: 2px solid #404040;
+    color: #404040;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.status-toggle-buttons .awaiting.selected {
+    background-color: rgba(213, 191, 68, 0.3);
+    border: 2px solid #D5BF44;
+    color: #D5BF44;
+}
+
+.status-toggle-buttons .completed {
+    background-color: #161616;
+    border: 2px solid #404040;
+    color: #404040;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.status-toggle-buttons .completed.selected {
+    background-color: rgba(32, 167, 88, 0.3);
+    border: 2px solid #20A759;
+    color: #20A759;
+}
