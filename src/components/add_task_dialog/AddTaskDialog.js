@@ -36,6 +36,7 @@ const AddTaskDialog = ({ visible, task, onHide, onUpdateTask }) => {
                     value={editableTask.title}
                     onChange={handleInputChange}
                     className="dialog-input"
+                    placeholder="Nombre de la tarea"
                 />
                 <textarea
                     id="description"
@@ -43,6 +44,7 @@ const AddTaskDialog = ({ visible, task, onHide, onUpdateTask }) => {
                     value={editableTask.description}
                     onChange={handleInputChange}
                     className="dialog-textarea"
+                    placeholder="Descripción de la tarea (opcional)"
                 />
                 <div className="dialog-actions">
                     <button onClick={handleUpdate} className="add-button">
