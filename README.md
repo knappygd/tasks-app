@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+> ESP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Proyecto de App de Tareas para DGamerStudio
 
-## Available Scripts
+Esto es un poyecto de prueba. Se puede hacer uso de operaciones básicas con tareas, como añadir tareas a una lista, editar tareas existentes y eliminarlas. Es una app minimalista, la cual consiste de una lista de tareas como el componente principal, donde cada tarea muestra un título, una breve descripción y un indicador del estado: amarillo o verde.
 
-In the project directory, you can run:
+Una tarea se añade con el botón Nueva Tarea que aparece abajo. Un pop-up aparecerá, en el cual se debe proporcionar un título requerido para crear la tarea, y una descripción opcional. Las tareas agregadas recientemente aparecerán al principio de la lista. Para editar una tarea, simplemente se clickea en la tarjeta de la tarea para actualizar. Aparecerá un pop-up, donde se puede editar tanto el título como la descripción, así como también cambiar el estado a Pendiente o Completado. El botón rojo elimina esta tarea.
 
-### `npm start`
+Está hecha utilizando el framework [React.js](https://react.dev/) y la librería de componentes de UI [PrimeReact](https://primereact.org/). Todas las solicitudes a la API se hacen con Axios.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Uso de la app
+Hay dos formas de usar la app. La manera más sencilla es directamente desde https://tasks-app-sooty.vercel.app/.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Si se quiere iniciar la app de manera local, hay que seguir estos pasos:
 
-### `npm test`
+### Prerequisitos
+Asegurate de tener instalado:
+- [Node.js](https://nodejs.org/) (versión recomendada: 16.20.2 por compatibilidad)
+- [npm](https://www.npmjs.com/) (se instala con Node.js)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clonar el repositorio
+```
+git clone https://github.com/knappygd/tasks-app.git
+cd tasks-app
+```
 
-### `npm run build`
+### Instalar dependencias
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Iniciar
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La app estara disponible en http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prototipo en Figma
 
-### `npm run eject`
+Un sketch sencillo en Figma de la app con las diferentes pantallas/estados se puede explorar [aquí](https://www.figma.com/design/KDuZ0PhI6x0BJQod84Hjdd/TasksApp?node-id=0-1&t=YCz6TbumARHJBIu0-1).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> ENG
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Task Management App Project for DGamerStudio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is a test-project. It has the ability to perform basic task managements, such as adding tasks to a list, editing existing tasks, and deleting them. It is a very minimal app, consisting of a task list as the main component, each task displaying a title, a short description and a status indicator: either yellow or green.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A task can be added with the Nueva Tarea button on the bottom. This will prompt a pop-up to set a task title, which is required for the task to be created, and an optional description. Newly added tasks will appear on top of the list. To edit a task, simply click on the card of the task to update. A pop-up will appear, where the title and description can be edited, as well as setting the status to either Pendiente or Completado. The red button deletes that task.
 
-## Learn More
+It is made using the [React.js](https://react.dev/) framework and the [PrimeReact](https://primereact.org/) UI component library. All requests are made using Axios to an API.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Use of the app
+There are two ways to use the app. The most straightforward is to directly access it at https://tasks-app-sooty.vercel.app/.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the app locally, follow these steps:
 
-### Code Splitting
+### Prerequisites
+Make sure to have the following:
+- [Node.js](https://nodejs.org/) (recommended version: 16.20.2 for compatibility)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Clone the repository
+```
+git clone https://github.com/knappygd/tasks-app.git
+cd tasks-app
+```
 
-### Analyzing the Bundle Size
+### Install dependencies
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Start the development server
+```
+npm start
+```
 
-### Making a Progressive Web App
+The app will be available at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Figma prototype
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A simple Figma project with sketches of the different screens/states of the app can be explored [here](https://www.figma.com/design/KDuZ0PhI6x0BJQod84Hjdd/TasksApp?node-id=0-1&t=YCz6TbumARHJBIu0-1).
